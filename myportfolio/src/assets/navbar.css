@@ -42,7 +42,7 @@
     display: grid;
     width: 75%;
     height: auto;
-    background-color: #131316;
+    background-color: #2C3539;
     border-radius: 1.2rem;
     margin-top: 0.7vh;
     margin-bottom: 0.7vh;
@@ -74,7 +74,7 @@ a {
 
 li a:hover {
     color: #131316;
-    background-color: #ffffff;
+    background-color: #dbd7d2;
     /* background-image: linear-gradient(315deg, #5b6467 0%, #8b939a 74%); */
 }
 
