@@ -6,9 +6,8 @@ section {
     /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
     place-items: center;
     align-items: center;
-    min-height: 90vh;
-
-    
+    min-height: 50vh;
+    margin-bottom: 22vh;
   }
 
 .hidden {
@@ -28,8 +27,8 @@ section {
 
 .item1 {
     
-    width: 1500px;
-    height: 500px;
+    width: 50vw;
+    height: 50vh;
     border-radius: 0.8rem;
 
     color: #000000;
@@ -47,14 +46,25 @@ section {
     /* background-color: #2d3436;
     background-image: linear-gradient(90deg, rgba(45,52,54,1) 0%, rgba(211,211,211,1) 52%, rgba(45,52,54,1) 100%); */
 
-    
+    background: rgb(240,170,96);
+    background: radial-gradient(circle, rgba(240,170,96,1) 0%, rgba(219,215,210,1) 80%, rgba(219,215,210,1) 84%); 
+
+    font-weight: 800 !important;
+    font-size: xx-large;
+    color: #ffffff;
 
     
 }
 
+.item1:hover {
+    background: rgb(219,215,210);
+    background: radial-gradient(circle, rgba(219,215,210,1) 0%, rgba(223,207,190,1) 30%, rgba(240,170,96,1) 84%); 
+    color: #000000;
+}
+
 .item2 {
-    width: 900px;
-    height: 500px;
+    width: 50vw;
+    height: 50vh;
     border-radius: 0.8rem;
 
     color: #000000;
@@ -68,8 +78,8 @@ section {
 }
 
 .item3 {
-    width: 900px;
-    height: 500px;
+    width: 50vw;
+    height: 50vh;
     border-radius: 0.8rem;
     margin-bottom: 3vh;
 
