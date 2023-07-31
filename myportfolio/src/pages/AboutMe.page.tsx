@@ -6,7 +6,7 @@ function AboutMe(): JSX.Element {
     return (
         <div className="about-body">
         <div className="about-heading">
-            <span id="about-welcome"><h1>Who Am I?</h1></span>
+            <span id="about-welcome"><h1 className="about-h1">Who Am I?</h1></span>
             <Navbar/>
         </div>
         <section>Hello there! I am Jubril-Awwal Shomoye. People normally just call me Awwal but whatever feels comfortable to you.

@@ -9,7 +9,7 @@ function Footer(): JSX.Element {
             <span id='smallerText'>Jubril-Awwal Shomoye</span>
             <span id='smallerText'>2023</span>
         </div>
-        <span id='modified'>Last Modified: 27<sup>th</sup> July 2023</span>
+        <span id='modified'>Last Modified: 31<sup>st</sup> July 2023</span>
         </div>
         
     )
