@@ -11,14 +11,14 @@ function Home(): JSX.Element {
         // <div className="home-body">
         <>
         <div className="heading">
-                <span id="welcome"><h1 className="home-h1">Hello There! Welcome to my Portfolio.</h1></span>
+                <span id="welcome"><h1 className="home-h1">Hello There! 👋🏿 Welcome to my Portfolio.</h1></span>
                 {/* <Navbar/> */}
             </div>
                 
             <div id="scroller">
-                <span id="home-text">This is the Homepage!</span>
+                <span id="home-text">Are you ready?</span>
                 <span id="scroll-text">Scroll Down</span>
-                <div id="scroll-pic"></div>
+                <div id="scroll-pic"/>
             </div>
 
             {/* <div className="spacer layer1"></div> */}

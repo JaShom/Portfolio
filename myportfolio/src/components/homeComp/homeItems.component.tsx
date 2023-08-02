@@ -33,20 +33,69 @@ function HomeItems(): JSX.Element {
 
     return (
         <>
-            <section className="hidden home-section background-grey">
-
-                <h1 id="a-links">Who Am I?</h1>
-                <p id="p-words">Hello there! I am Jubril-Awwal Shomoye. People normally just call me Awwal but whatever feels comfortable to you.
-        I am a Computer Science Graduate, a gamer and a gym nerd. I'm actively on the lookout for Software Engineer opportunities in any industry, 
-        which would allow me to kick start my career, permit me to learn new skills whilst enhancing and honing current skills.
-        Although I'd prefer a backend role, I am not picky with any position at the moment.
-        I love technology and problem solving</p>
+            <section className="home-section background-grey">
+                <div className="item1">
+                    <span id="item-title">Who Am I?</span>
+                        <span id="item1-desc" className="hidden">
+                            Hello there! I am Jubril-Awwal Shomoye. People normally use Awwal but whatever feels comfortable to you is alright. 
+                            I am a Computer Science Graduate, a gamer and a gym nerd. I'm actively on the lookout for Software Engineer opportunities in any industry (I don't think I can be picky), 
+                            which would allow me to kick start my career, permit me to learn new skills whilst enhancing and honing current skills. 
+                            Although I'd prefer a backend role, I am not picky with any position at the moment. 
+                            I love technology and problem solving
+                        </span>
+                    
+        
+                </div>
+                {/* <h1 id="a-links"></h1>
+                <p id="p-words"></p> */}
                 
             </section>
+            {/* <div id="space"/> */}
             <section className=" home-section">
-                <a id="a-links">Skills</a>
+                <div className="item2">
+                    <span id="item-title">Skills</span>          
+                    <span id="item2-desc">Here are the Languages / Technologies & Softwares I've used over since I've begun programming</span>
+                    <div id="item-desc-area">
+                        <span id="list1">
+                            <p id="listTitle">Languages</p>
+                            <ul id="listItems">
+                                <li>Python</li>
+                                <li>JavaScript</li>
+                                <li>C++</li>
+                                <li>Java</li>
+                                <li>R</li>
+                            </ul>
+                        </span>
+
+                        <span id="list2">
+                        <p id="listTitle">Technologies</p>
+                            <ul id="listItems">
+                                <li>Numpy</li>
+                                <li>Pandas</li>
+                                <li>React</li>
+                                <li>TensorFlow</li>
+                                <li>scikit-learn</li>
+                                <li> Django</li>
+                                <li>NodeJS</li>
+                                <li>CUDA</li>
+                            </ul>
+                        </span>
+
+                        <span id="list3">
+                        <p id="listTitle">Software</p>
+                            <ul id="listItems">
+                                <li>Github</li>
+                                <li>Miro</li>
+                                <li>Microsoft Access</li>
+                                <li>AxureRP</li>
+                            </ul>
+                        </span>
+                    </div>
+                </div>
+                <a id="a-links"></a>
             </section>
             {/* <div className="spacer layer2 flip"></div> */}
+            <div id="space"/>
             <section className="hidden home-section ">
                 
                 <a id="a-links" href="/projects">Projects</a>
@@ -70,23 +119,19 @@ function HomeItems(): JSX.Element {
                         ></path>
                     </g>
                 </svg>
-                <p id="p-words">Want see what I've made? 🤔</p>
+                <p id="p-words">Want to see what I've made? 🤔</p>
+                <div id="item-desc-area">yhy yh</div>
             </section>
+            <div id="space"/>
             {/* <div className="spacer layer2 "></div> */}
             <section className="default home-section bubble header-grey">
                     <a id="a-links" href="/contact">Contacts & Links</a>
-                    <ul>
-                        <li>
-                            Email
-                        </li>
-                        <li>
-                            Github
-                        </li>
-                        <li>
-                            LinkedIn
-                        </li>
+                    <ul id="contact-list">
+                        <a id="mail" href="mailto:ja.shomoye@gmail.com?subject=Job Offer??&body=Please consider Me🙏🏿🥺"/>
+                        <a id="github" href="https://github.com/JaShom"/>
+                        <a id="linkedIn" href="https://www.linkedin.com/in/jubril-awwal-shomoye-b78009171/"/>
+                        <a id="leetcode" href="https://leetcode.com/JaShom/" />
                     </ul>
-                
             </section>
         </>
     )

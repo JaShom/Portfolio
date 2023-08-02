@@ -9,7 +9,8 @@ function Footer(): JSX.Element {
             <span id='smallerText'>Jubril-Awwal Shomoye</span>
             <span id='smallerText'>2023</span>
         </div>
-        <span id='modified'>Last Modified: 31<sup>st</sup> July 2023</span>
+        <span id='disclaimer'>Disclaimer: I DO NOT OWN THE ICONS USED HERE NOR DO I CLAIM OWNERSHIP OF THEM</span>
+        <span id='modified'>Last Modified: 2<sup>nd</sup> August 2023</span>
         </div>
         
     )
