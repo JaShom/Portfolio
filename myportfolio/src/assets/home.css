@@ -141,10 +141,10 @@
 .section-background-grey {
     margin: 0;
     padding: 0;
-    background: #2C3539;
+    background: #131316;
     row-gap: 5vh;
 }
-
+/* #2C3539 */
 .footing {
     background-color: #778899;
     display: grid;
