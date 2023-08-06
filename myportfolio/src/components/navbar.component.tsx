@@ -10,7 +10,7 @@ function Navbar(): JSX.Element {
                     </a>
                 </li>
                 <li>
-                    <a href="/aboutme">
+                    <a href="/#">
                         About
                     </a>
                 </li>
@@ -20,7 +20,7 @@ function Navbar(): JSX.Element {
                     </a>
                     </li>
                 <li>
-                    <a href="/contact">
+                    <a href="/#">
                         Contact
                     </a>
                 </li>  

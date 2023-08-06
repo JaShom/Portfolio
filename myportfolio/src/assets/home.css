@@ -84,13 +84,13 @@
     font-size: 30px;
     opacity: 0;
     transform: translateX(-3rem);
-    animation: fadeInSide 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
+    animation: fadeInSide 2s ease calc(var(--typewriterSpeed) + 1s) forwards;
 }
 #scroll-text {
     font-size: 30px;
     opacity: 0;
     transform: translateY(3rem);
-    animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 4s) forwards;
+    animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
 }
 #scroll-pic {
     aspect-ratio: 48/48;
@@ -102,7 +102,7 @@
     opacity: 0;
     transform: translateY(-12rem);
     animation: 
-    fadeInDown 2s ease calc(var(--typewriterSpeed) + 5s) forwards;
+    fadeInDown 2s ease calc(var(--typewriterSpeed) + 3s) forwards;
 }
 
 @keyframes fadeInSide {

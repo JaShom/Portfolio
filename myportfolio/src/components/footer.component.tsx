@@ -10,7 +10,7 @@ function Footer(): JSX.Element {
             <span id='smallerText'>2023</span>
         </div>
         <span id='disclaimer'>Disclaimer: I DO NOT OWN THE ICONS USED HERE NOR DO I CLAIM OWNERSHIP OF THEM</span>
-        <span id='modified'>Last Modified: 2<sup>nd</sup> August 2023</span>
+        <span id='modified'>Last Modified: 6<sup>th</sup> August 2023</span>
         </div>
         
     )

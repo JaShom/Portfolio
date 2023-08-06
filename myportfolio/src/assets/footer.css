@@ -1,6 +1,6 @@
 .foot-grid{
     display: grid;
-    grid-template-columns: 2fr 3fr 1fr;
+    grid-template-columns: 2fr 3.2fr 1.1fr;
     align-items: center;
 }
 .designed {
