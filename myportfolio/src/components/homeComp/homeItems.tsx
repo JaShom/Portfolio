@@ -1,9 +1,9 @@
 import { useEffect } from "react"
 import '../../assets/homeItems.css'
 // import KUTE from 'kute.js'
-import AboutMeSection from "./sectionItems/aboutMeSection.component";
-import SkillsSection from "./sectionItems/skillsSection.component";
-import ProjectSection from "./sectionItems/projectSection.component";
+import AboutMeSection from "./sectionItems/aboutMeSection";
+import SkillsSection from "./sectionItems/skillsSection";
+import ProjectSection from "./sectionItems/projectSection";
 
 function HomeItems(): JSX.Element {
 
@@ -38,13 +38,13 @@ function HomeItems(): JSX.Element {
                         <a href="mailto:ja.shomoye@gmail.com?subject=Job%20Offer%3F%3F&body=Please%20consider%20Me%F0%9F%99%8F">
                             <image id="mail"/>
                         </a>
-                        <a href="https://github.com/JaShom">
+                        <a href="https://github.com/JaShom" target="_blank" rel="noreferrer">
                             <image id="github"/>
                         </a>
-                        <a href="https://www.linkedin.com/in/jubril-awwal-shomoye-b78009171/">
+                        <a href="https://www.linkedin.com/in/jubril-awwal-shomoye-b78009171/" target="_blank" rel="noreferrer">
                             <image id="linkedIn"/>
                         </a>
-                        <a href="https://leetcode.com/JaShom/">
+                        <a href="https://leetcode.com/JaShom/" target="_blank" rel="noreferrer">
                             <image id="leetcode"/>
                         </a>
                     </ul>

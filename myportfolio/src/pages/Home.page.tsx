@@ -1,8 +1,8 @@
 // import Navbar from "../components/navbar.component"
 import '../assets/home.css'
-import Footer from "../components/footer.component"
+import Footer from "../components/footer"
 import '../assets/icons/arrow_downward.png'
-import HomeItems from "../components/homeComp/homeItems.component"
+import HomeItems from "../components/homeComp/homeItems"
 
 
 function Home(): JSX.Element {
@@ -11,7 +11,7 @@ function Home(): JSX.Element {
         // <div className="home-body">
         <>
         <div className="heading">
-                <span id="welcome"><h1 className="home-h1">Hello There! 👋&#x1F3FF; Welcome to my Portfolio.</h1></span>
+                <span id="welcome"><h1 className="home-h1">Hello There! &#x1F44B; Welcome to my Portfolio.</h1></span>
                 {/* <Navbar/> */}
             </div>
                 

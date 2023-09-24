@@ -1,4 +1,4 @@
-import Navbar from "../components/navbar.component"
+import Navbar from "../components/navbar"
 
 
 function Projects(): JSX.Element {

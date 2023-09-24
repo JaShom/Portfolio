@@ -39,7 +39,7 @@ function SkillsSection(): JSX.Element {
     return (
         <section className=" home-section">
                 <div className="item2">
-                    <span id="item-title">Skills</span>          
+                    <span id="item-title">Skills</span>
                     <span id="item2-desc">Here are the Languages / Technologies & Softwares I've learnt and used since I've begun programming</span>
                     <div id="item-desc-area">
                         <span className="list1-h">
