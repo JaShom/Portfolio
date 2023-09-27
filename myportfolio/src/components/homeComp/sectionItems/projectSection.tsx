@@ -1,4 +1,8 @@
 // import { useEffect } from "react";
+
+import Card from "../../Card"
+import PopUp from "../../PopUp"
+
 // import KUTE from 'kute.js'
 function ProjectSection(): JSX.Element {
 
@@ -16,9 +20,36 @@ function ProjectSection(): JSX.Element {
 
     // }, []);
 
+    const projects = [
+        {
+            projectID: 0,
+            title: "Uni Final Year Project",
+            description: "This project showcases the development and optimization of a Swarm Intelligence Algorithm, DFO, by harnessing the power of CPU Multi-Processing and GPU computing..."
+        },
+        {
+            projectID: 1,
+            title: "GPT Finance Analyzer",
+            description: "\"FinCat\" is a web application that combines an appealing user interface with secure bank data access and advanced transaction processing powered by GPT through the OpenAI API..."
+        },
+        {
+            projectID: 2,
+            title: "Multi-Client Chat",
+            description: "This project demonstrates the development of a multi-client chat server program in Java. Employing various techniques and principles to create an efficient..."
+        },
+        {
+            projectID: 3,
+            title: "Navigation System",
+            description: "The \"London Underground Navigation System\" is an application that uses data structures and algorithms to help users plan travel routes within the London Underground..."
+        },
+        {
+            projectID: 4,
+            title: "Color Capture Tool",
+            description: " Developed a real-time screen capture tool using C++ that tracks the cursor's position and captures pixel color informationThe application continuously displays the cursor's coordinates and..."
+        },
+    ]
+
     return (
         <section className="hidden home-section ">
-                <div className=""></div>
                 {/* <a id="a-links" href="/projects">Projects</a> */}
                 {/* <svg className="blob-motion"
                     id="visual" 
@@ -40,97 +71,25 @@ function ProjectSection(): JSX.Element {
                         ></path>
                     </g>
                 </svg> */}
-                <div className="item3">
+            <div className="item3">
+                <PopUp/>
+                <div className="projectContainer">
+
                     <span id="item-title">Projects</span>
                     <p id="messageToHover">Hover over cards</p>
+
                     <div className="projectCardContainer">
 
-                        <div className="card">
-
-                            <h3 className="title">Uni Final Year Project</h3>
-
-                            <div className="bar">
-                                <div className="emptyBar"></div>
-                                <div className="filledBar"></div>
-                            </div>
-
-                            {/* <div className="circle">
-                                    <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-                                    <circle className="stroke" cx="60" cy="60" r="50"/>
-                                    </svg>
-                                </div> */}
-
-                            <p className="cardDescription">
-                                This project showcases the development and optimization of a Swarm Intelligence Algorithm,
-                                DFO, by harnessing the power of CPU Multi-Processing and GPU computing...
-                            </p>
-
-                        </div>
-
-                        <div className="card">
-
-                            <h3 className="title">GPT Finance Analyzer</h3>
-
-                            <div className="bar">
-                                <div className="emptyBar"></div>
-                                <div className="filledBar"></div>
-                            </div>
-
-                            <p className="cardDescription">
-                            "FinCat" is a web application that combines an appealing user interface with secure bank data 
-                            access and advanced transaction processing powered by GPT through the OpenAI API...
-                            </p>
-
-                        </div>
-
-                        <div className="card">
-                        <h3 className="title">Multi-Client Chat</h3>
-
-                            <div className="bar">
-                                <div className="emptyBar"></div>
-                                <div className="filledBar"></div>
-                            </div>
-
-                            <p className="cardDescription">
-                                This project demonstrates the development of a multi-client chat server program in Java.
-                                Employing various techniques and principles to create an efficient...
-                            </p>
-                        </div>
-
-                        <div className="card">
-                        <h3 className="title">Navigation System</h3>
-
-                            <div className="bar">
-                                <div className="emptyBar"></div>
-                                <div className="filledbar"></div>
-                            </div>
-
-
-                            <p className="cardDescription">
-                            The "London Underground Navigation System" is an application that uses data structures and algorithms 
-                            to help users plan travel routes within the London Underground...
-                            </p>
-                        </div>
-                        
-                        <div className="card">
-                        <h3 className="title">RGB / HEX Finder</h3>
-
-                            <div className="bar">
-                                <div className="emptyBar"></div>
-                                <div className="filledBar"></div>
-                            </div>
-
-                            <p className="cardDescription">
-                            Developed a screen capture tool utilizing Microsoft DirectX 9 for precise and efficient capturing of the screen's front buffer.
-                            This project involved creating a Windows application capable...
-                            </p>
-                        </div>
+                        {projects.map((item) => {
+                            return <Card key={item.projectID} projectID={item.projectID} title={item.title} description={item.description} />
+                        })}
 
                     </div>
-
+                
                 </div>
-                <div id=""/>
-            </section>
+
+            </div>
+        </section>
     )
 }
 

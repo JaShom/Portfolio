@@ -1,4 +1,4 @@
-import '../assets/footer.css'
+import '../assets/styles/footer.css'
 
 function Footer(): JSX.Element {
 

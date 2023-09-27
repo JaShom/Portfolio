@@ -1,5 +1,5 @@
-import { useEffect } from "react"
-import '../../assets/homeItems.css'
+// import { useEffect } from "react"
+import '../../assets/styles/HomePage/homeItems.css'
 // import KUTE from 'kute.js'
 import AboutMeSection from "./sectionItems/aboutMeSection";
 import SkillsSection from "./sectionItems/skillsSection";
@@ -8,18 +8,18 @@ import ProjectSection from "./sectionItems/projectSection";
 function HomeItems(): JSX.Element {
 
     // Observer for elements
-    useEffect(() => {
+    // useEffect(() => {
         
-        // const animateBlob3 = KUTE.fromTo(
-        //     '#blob1',
-        //     { path: '#blob1' },
-        //     { path: '#blob2' },
-        //     { repeat: 999, duration:3000, yoyo: true }
-        // )
+    //     const animateBlob3 = KUTE.fromTo(
+    //         '#blob1',
+    //         { path: '#blob1' },
+    //         { path: '#blob2' },
+    //         { repeat: 999, duration:3000, yoyo: true }
+    //     )
 
-        // animateBlob3.start();
+    //     animateBlob3.start();
 
-    }, []);
+    // }, []);
 
     return (
         <>
