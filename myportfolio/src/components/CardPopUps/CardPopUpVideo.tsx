@@ -48,7 +48,7 @@ function CardPopUpVideo(props: iProjectInfoProps): JSX.Element {
                 return <p className="projectDescription">{para}</p>
             })}
             <p>Project on Github: 
-                <a id="gitLink" href={props.projectURL}  target="_blank" rel="noreferrer">
+                <a id="gitLink" href={props.projectURL} target="_blank" rel="noreferrer">
                     {props.projectTitle}
                 </a>
             </p>

@@ -9,8 +9,11 @@ function CardPopUp(props: iProjectInfoProps): JSX.Element {
             <h3 className="projectTitle">
                 {props.projectTitle}
             </h3>
+            {props.projectDescription.map((para) => {
+                return <p className="projectDescription">{para}</p>
+            })}
             <p> Project here on Github: 
-                <a id="gitLink" href="https://github.com/ProjectFinCat/FinCat">
+                <a id="gitLink" href={props.projectURL} target="_blank" rel="noreferrer">
                     {props.projectTitle}
                 </a>
             </p>

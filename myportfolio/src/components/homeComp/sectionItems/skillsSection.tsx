@@ -64,6 +64,7 @@ function SkillsSection(): JSX.Element {
                                 <li> Django</li>
                                 <li>NodeJS</li>
                                 <li>CUDA</li>
+                                <li>TypeScript</li>
                             </ul>
                         </span>
 

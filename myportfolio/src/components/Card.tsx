@@ -29,28 +29,47 @@ function Card(props: iCardDetailsProps): JSX.Element {
             projectID: 1,
             projectTitle: "”FinCat” GPT-Powered Finance Analyzer",
             projectVideo: '',
-            projectDescription: [],
+            projectDescription: [
+                "\"FinCat\" represents a collaborative team project where my role was centered on configuring data for the OpenAI text-davinci-003 model, ensuring seamless categorization and preparation for user presentation.",
+                "This web application combines an aesthetically pleasing React-based user interface with secure bank data access through Plaid integration. It efficiently processes user transactions using the OpenAI API for precise categorization and seamlessly presents the categorized data on the frontend.",
+                "Leveraging a stack of technologies including JavaScript, React, Express.js, Node.js, the OpenAI API, and Plaid, \"FinCat\" offers users an appealing, secure, and user-friendly platform for accessing and comprehending their financial information.",
+                "Unfortunately, this project has been temporarily halted, with the hope of resuming and completing it in the future."
+            ],
             projectURL: 'https://github.com/ProjectFinCat/FinCat'
         },
         {
             projectID: 2,
             projectTitle: 'Multi-Client Chat Server Program',
             projectVideo: '',
-            projectDescription: [],
+            projectDescription: [
+                "The \"Multi-Client Chat Server Program\" represents my debut venture into Java programming and collaborative teamwork, making it a particularly memorable project.",
+                "It involves the creation of a Java-based chat server application, emphasizing key features such as multi-client support, facilitated through socket programming and multithreading for concurrent communication.",
+                "Additionally, the project employs a UML class diagram for architectural visualization and adheres to GRASP principles for well-structured class organization.",
+                "Overall, this project not only showcases the development of an efficient multi-client chat server but also marks my inaugural experience with Java programming and enjoyable teamwork."
+            ],
             projectURL: 'https://github.com/JaShom/Chat-Server/tree/main/APChatServer-main'
         },
         {
             projectID: 3,
             projectTitle: 'London Underground Navigation System',
             projectVideo: '',
-            projectDescription: [],
+            projectDescription: [
+                "The \"London Underground Navigation System\" served as a university coursework task, and it marked my introduction to Advanced Algorithms and Data Structures. This project was particularly noteworthy because it required the implementation of a Doubly Linked List, a specified requirement for the assignment.",
+                "Initially, the route calculation algorithm had a runtime complexity of O(n^2). However, I later undertook optimization efforts, incorporating a HashMap data structure to significantly enhance efficiency. This optimization resulted in a notable improvement, reducing the runtime complexity to O(n * log(n)).",
+                "In summary, the \"London Underground Navigation System\" project combined my academic exploration of Python with a practical challenge, showcasing my ability to meet specific requirements while implementing algorithmic improvements to achieve more efficient route planning within the London Underground network."
+            ],
             projectURL: 'https://github.com/JaShom/London-Underground-Navigation-System'
         },
         {
             projectID: 4,
-            projectTitle: '',
+            projectTitle: 'Real-Time Cursor Position and Colour Capture Tool',
             projectVideo: '',
-            projectDescription: [],
+            projectDescription: [
+                "IIn this project, I developed a real-time screen capture tool using C++, creating an application that continuously tracks the cursor's position and captures pixel colour Information. The tool converts the pixel colour into both RGB and hexadecimal formats and offers real-time updates for cursor position and colour data.",
+                "It demonstrates proficiency in screen interaction and colour manipulation within a Windows environment.",
+                "However, it's worth noting that the application currently has a limitation, as it may encounter difficulties reading pixels on certain monitors.",
+                "Despite this challenge, the project still demonstrates proficiency in C++ programming for Windows, real-time cursor tracking, pixel color capture, conversion, and the development of a user interface for displaying cursor information. This collective expertise makes it a valuable foundation for cursor tracking and pixel color analysis in various applications."
+            ],
             projectURL: ''
         },
     ]
