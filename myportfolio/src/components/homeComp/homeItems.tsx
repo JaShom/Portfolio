@@ -36,7 +36,7 @@ function HomeItems(): JSX.Element {
                 <span id='item-title'>THANK YOU AND HIRE ME PLEASE</span>
                 <img src={require('../../assets/videos/jhin.gif')} alt='ThankYou'/>
             </div>
-            {/* <div id='space'/> */}
+            <div id='space'/>
             <section className="default home-section bubble header-grey">
                     <span id="item-title">Contacts & Links</span>
                     <ul id="contact-list">
