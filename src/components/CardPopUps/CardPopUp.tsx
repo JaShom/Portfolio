@@ -1,8 +1,5 @@
-// import '../../assets/backgrounds/FinCatPic.png'
-
 import { useEffect, useState } from "react"
 
-// import '../../assets/backgrounds/FinCatPic.png'
 interface iProjectInfoProps {
     projectTitle: string,
     projectPicture: string,

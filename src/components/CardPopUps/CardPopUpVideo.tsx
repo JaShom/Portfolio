@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import '../../assets/styles/PopUp/CardPopUp.css'
-// import videoFile from '../../assets/videos/SIAGPU_Eplainer.mp4'
+
 interface iProjectInfoProps {
     projectTitle: string,
     projectVideo:string,
