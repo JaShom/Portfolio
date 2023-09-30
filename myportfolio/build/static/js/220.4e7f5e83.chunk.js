@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkmyportfolio=self.webpackChunkmyportfolio||[]).push([[220],{220:function(e,o,p){e.exports=p.p+"static/media/ColourCapture.28b3f7c03ca3edabec89.png"}}]);
