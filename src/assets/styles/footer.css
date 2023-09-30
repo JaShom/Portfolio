@@ -1,6 +1,6 @@
 .foot-grid{
     display: grid;
-    grid-template-columns: 2fr 3.2fr 1.1fr;
+    grid-template-columns: 2fr 3.3fr 1.5fr;
     align-items: center;
 }
 .designed {
@@ -33,6 +33,7 @@
     grid-column: 3;
     /* grid-row: 1; */
     float: right;
+    padding-left: 3.5vw;
     font-family: 'Roboto Mono', monospace;
 }
 

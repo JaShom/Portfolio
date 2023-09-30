@@ -55,8 +55,6 @@ export const PopUpProvider: FC<ProviderProps> = ({children}) => {
         setDisplayComponent: setIsDisplayComponentState
     }
 
-    console.log(isPopUpVisibleState)
-
     return (
         <popUpContext.Provider value={contextVal}>
             {children}
