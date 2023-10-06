@@ -23,15 +23,24 @@ function AboutMeSection(): JSX.Element {
             <div className="item1">
                 <div id="item-title-pic">
                     <span id="item-title">Who Am I?</span>
-                    <image id="me"/>
+                    {/* <image id="me"/> */}
                 </div>
-                <span id="item1-desc" className="hidden">
-                    Hello there! I am Jubril-Awwal Shomoye. People normally use Awwal but whatever feels comfortable to you is alright. 
-                    I am a Computer Science Graduate, a gamer and a gym nerd. I'm actively on the lookout for Software Engineer opportunities in any industry (I don't think I can be picky), 
-                    which would allow me to kick start my career, permit me to learn new skills whilst enhancing and honing current skills. 
-                    Although I'd prefer a backend role, I am not picky with any position at the moment. 
-                    I love technology and problem solving
+                <span className="hidden">
+                    <p id="item1-desc">
+                        Hello there! I am Jubril-Awwal Shomoye, known to many as Awwal, and I am a Computer Science Graduate with a passion for technology. I am a gamer and a fitness enthusiast. 
+                        Currently, I am actively seeking opportunities as a Software Engineer across various industries. I am open to exploring roles that can kick start my career, provide opportunities to acquire new skills, and further refine my existing ones.
+                        
+                    </p>
+                    <p id="item1-desc">
+                        While I have a preference for backend development, I am flexible and open to considering positions in any area of software engineering. My deep love for technology and my problem-solving mindset drive my enthusiasm for this field. 
+                        I am eager to contribute my skills and knowledge to tackle challenging problems and help create innovative solutions.
+                        
+                    </p>
+                    <p id="item1-desc">
+                        Thank you for visiting my web portfolio, and please feel free to explore my work and accomplishments in the field of Computer Science. If you have any inquiries or would like to connect, I would be delighted to hear from you.
+                    </p>
                 </span>
+                
             </div> 
         </section>
     )

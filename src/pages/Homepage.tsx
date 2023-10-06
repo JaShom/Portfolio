@@ -18,11 +18,11 @@ function Home(): JSX.Element {
             <div id="scroller">
                 <span id="home-text">Are you ready?</span>
                 <span id="scroll-text">Scroll Down</span>
-                <div id="scroll-pic">
-                    <svg xmlns="http://www.w3.org/2000/svg" height="48" viewBox="0 -960 960 960" width="48">
+                {/* <div id="scroll-pic"> */}
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" id='scroll-pic'>
                         <path d="M450-800v526L202-522l-42 42 320 320 320-320-42-42-248 248v-526h-60Z" fill= "#ffffff"/>
                     </svg>
-                </div>
+                {/* </div> */}
             </div>
 
             {/* <div className="spacer layer1"></div> */}

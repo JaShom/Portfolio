@@ -112,7 +112,12 @@
     
 }
 #item-title-pic {
+    height: auto;
     display: grid;
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    align-items: center;
+    /* place-items: center; */
+    justify-content: center;
 }
 #item-title {
     /* border: 1px solid darkblue; */
@@ -134,10 +139,22 @@
     font-size: 20px;
     float: left;
     text-align: start;
-    padding-right: 10rem;
+    /* padding-right: 10rem; */
     /* width: 55vw; */
 }
-
+@media screen and (max-width: 400px) {
+    .item1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.5fr 1fr;
+    }
+    #item1-desc {
+        grid-row: 2;
+        text-align: center;
+        padding-right: 0;
+        float: none;
+        font-size: 1rem;
+    }
+}
  /* --------------------------- SKILLS --------------------------- */
 .item2 {
     /* background-color: #778899; */
@@ -421,8 +438,8 @@
 }
 
 .card {
-    display: flex;
-    height: 80%;
+    /* display: flex; */
+    height: 65%;
     margin-top: 1%;
     width: 20vw;
     background-color: #131316;
@@ -435,6 +452,8 @@
     padding-bottom: 0;
     margin-bottom: 0;
     cursor: pointer;
+    display: grid;
+    grid-template-rows: 0.4fr 0.8fr 0.1fr 3.6fr 1fr;
 }
 
 .card:not(:first-child) {
@@ -458,15 +477,21 @@
 .title {
     color: white;
     font-weight: 300;
-    position: absolute;
-    left: 10px;
-    top: 15px;
+    grid-row: 2;
+    padding: 0;
+    padding-left: 0.3vw;
+    padding-top: 1vh;
+    margin: 0;
+    /* position: absolute; */
+    /* left: 10px; */
+    /* top: 15px; */
 }
 
 .bar {
     position: absolute;
-    top: 102px;
+    /* top: 102px; */
     left: 10px;
+    grid-row: 3;
     height: 5px;
     width: 93%;
 }
@@ -490,21 +515,23 @@
 
 .card:hover .filledBar {
     width: 100%;
-    transition: 5s ease-out;
+    transition: 3s ease-out;
 }
 
 .cardDescription {
-    position: absolute;
-    top: 23%;
+    /* position: absolute; */
+    /* top: 23%; */
+    grid-row: 4;
     font-weight: 300 !important;
     font-size: 25px;
     padding-left: 0.5vw;
 }
 
 .clickMore {
-    position: absolute;
-    top: 80%;
-    left: 5vw;
+    /* position: absolute; */
+    /* top: 80%; */
+    /* left: 5vw; */
+    grid-row: 5;
     opacity: 0;
     background-color: transparent;
 
@@ -524,7 +551,7 @@
 .card:hover .clickMore {
     /* opacity: 1; */
     animation:
-    fadeIn 3000ms ease-in-out 3s forwards;
+    fadeIn 2000ms ease-in-out 2s forwards;
 }
 
 .circle {

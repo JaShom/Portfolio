@@ -30,17 +30,17 @@ function HomeItems(): JSX.Element {
             {/* <div className="spacer layer2 flip"></div> */}
             <div id="space"/>
             <ProjectSection/>
-            <div id="space"/>
+            {/* <div id="space"/> */}
             {/* <div className="spacer layer2 "></div> */}
             <div className='default thanks-section'>
-                <span id='item-title'>THANK YOU AND HIRE ME PLEASE</span>
-                <img src={require('../../assets/videos/jhin.gif')} alt='ThankYou'/>
+                <span id='item-title'>I look forward to hearing from you!</span>
+                {/* <img src={require('../../assets/videos/jhin.gif')} alt='ThankYou'/> */}
             </div>
             {/* <div id='space'/> */}
             <section className="default home-section bubble header-grey">
                     <span id="item-title">Contacts & Links</span>
                     <ul id="contact-list">
-                        <a href="mailto:ja.shomoye@gmail.com?subject=Job%20Offer%3F%3F&body=Please%20consider%20Me%F0%9F%99%8F">
+                        <a href="mailto:ja.shomoye@gmail.com">
                             <image id="mail"/>
                         </a>
                         <a href="https://github.com/JaShom" target="_blank" rel="noreferrer">

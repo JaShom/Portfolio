@@ -76,7 +76,7 @@ function ProjectSection(): JSX.Element {
                 <div className="projectContainer">
 
                     <span id="item-title">Projects</span>
-                    <p id="messageToHover">Hover over cards</p>
+                    <p id="messageToHover">Hover/Click over cards</p>
 
                     <div className="projectCardContainer">
 

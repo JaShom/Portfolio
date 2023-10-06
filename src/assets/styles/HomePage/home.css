@@ -28,6 +28,7 @@
 .home-h1 {
     position: relative;
     width: max-content;
+    font-size: 1.668vw;
 }
 
 .home-h1::before,
@@ -36,7 +37,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    left: 0px;
+    left: 0;
     bottom: 0;
 }
 
@@ -54,6 +55,8 @@
 
 }
 
+
+
 @keyframes typewriter {
     to {
         left: 100%;
@@ -66,7 +69,7 @@
     }
 }
 
-#scroller{
+#scroller {
     display: grid;
     /* grid-row: 2vh 2vh; */
     text-align: center;
@@ -82,21 +85,21 @@
 }
 
 #home-text {
-    font-size: 30px;
+    font-size: 1.87rem;
     opacity: 0;
     transform: translateX(-3rem);
     animation: fadeInSide 2s ease calc(var(--typewriterSpeed) + 1s) forwards;
 }
 
 #scroll-text {
-    font-size: 30px;
+    font-size: 1.87rem;
     opacity: 0;
     transform: translateY(3rem);
     animation: fadeInUp 2s ease calc(var(--typewriterSpeed) + 2s) forwards;
 }
 
 #scroll-pic {
-    aspect-ratio: 48/48;
+    /* aspect-ratio: 48/48; */
     height: 48px;
     width: 48px;
     /* background-image: url('../../icons/arrow_downward.png'); */
@@ -156,3 +159,35 @@
     color: #f5f5f5;
     /* border-top: 1px solid #000000; */
   }
+
+@media screen and (max-width: 400px) {
+
+    #welcome {
+        font-family: 'Roboto Mono', monospace;
+        margin-left: 8px;
+        color: #f5f5f5;
+    }
+
+    .home-h1 {
+        font-size: 4vw;
+        /* font-weight: 400; */
+    }
+
+
+    #scroller {
+        min-height: 60vh;
+    }
+
+    #home-text {
+        font-size: 1.7rem;
+    }
+
+    #scroll-text {
+        font-size: 1.8rem;
+    }
+
+    #scroll-pic {
+        height: 40px;
+        width: 40px;
+    }
+}
