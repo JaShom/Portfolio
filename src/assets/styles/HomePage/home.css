@@ -192,3 +192,36 @@
         width: 40px;
     }
 }
+
+@media screen and (min-width: 401px) and (max-width: 500px) {
+
+    #welcome {
+        font-family: 'Roboto Mono', monospace;
+        /* margin-left: 1px; */
+        margin-right: 13vw;
+        color: #f5f5f5;
+    }
+
+    .home-h1 {
+        font-size: 1rem;
+        /* font-weight: 400; */
+    }
+
+
+    #scroller {
+        min-height: 65vh;
+    }
+
+    #home-text {
+        font-size: 1.8rem;
+    }
+
+    #scroll-text {
+        font-size: 1.9rem;
+    }
+
+    #scroll-pic {
+        height: 45px;
+        width: 45px;
+    }
+}

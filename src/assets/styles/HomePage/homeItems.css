@@ -54,6 +54,12 @@
     }
 }
 
+@media screen and (min-width: 401px) and (max-width: 500px) {
+    #space {
+        height: 15vh;
+    }
+}
+
 #a-links{
     color: #ffffff !important;
     text-decoration: none;
@@ -159,6 +165,25 @@
         padding-right: 0;
         float: none;
         font-size: 1rem;
+    }
+}
+
+@media screen and (min-width: 401px)  and (max-width: 500px){
+    .item1 {
+        grid-template-columns: 1fr;
+        grid-template-rows: 0.3fr 1.2fr;
+    }
+    #item-title-pic {
+        height: 20vh;
+    }
+    #item1-desc {
+        grid-row: 2;
+        text-align: center;
+        padding-right: 0;
+        float: none;
+        font-size: 1.1rem;
+        width: 80%;
+        padding-left: 10%;
     }
 }
  /* --------------------------- SKILLS --------------------------- */
@@ -311,6 +336,34 @@
 
     #listItems {
         font-size: 0.7rem
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 500px) {
+
+    .item2 {
+        padding-top: 8vh;
+    }
+
+    #item2-desc {
+        font-size: 1rem;
+        width: 100vw;
+    }
+
+    .list1-s {
+        transform: translate(0.5rem, 1rem);
+    }
+
+    .list3-s {
+        transform: translate(-0.2rem, 1rem);
+    }
+
+    #listTitle {
+        font-size: 0.95rem;
+    }
+
+    #listItems {
+        font-size: 0.8rem
     }
 }
 
@@ -592,6 +645,59 @@
 }
 
 @media screen and (max-width: 400px) {
+
+    .item3 {
+        height: 110vh;
+    }
+
+    .projectCardContainer {
+        padding: 0;
+    }
+
+    .card {
+        height: 18vh;
+        width: 31vw;
+        grid-template-rows: 1fr;
+        align-items: center;
+        box-shadow: none;
+    }
+
+    .card:not(:first-child) {
+        margin-left: -15vw;
+    }
+
+    .card:nth-child(even) {
+        margin-top: 21vh;
+    }
+
+    .card:hover ~ .card {
+        left: 0;
+    }
+
+    .cardTitle {
+        grid-row: 1;
+        font-size: 1.35rem;
+    }
+
+    .bar {
+        display: none;
+        left: 5px;
+    }
+
+    .cardDescription {
+        font-size: 0.8rem;
+        display: none;
+    }
+
+    .clickMore {
+        grid-row: 4;
+        display: none;
+        opacity: 1;
+        font-size: 0.9rem;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 500px){
 
     .item3 {
         height: 110vh;
