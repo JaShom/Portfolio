@@ -297,6 +297,14 @@
         width: 100vw;
     }
 
+    .list1-s {
+        transform: translate(0.5rem, 1rem);
+    }
+
+    .list3-s {
+        transform: translate(-0.5rem, 1rem);
+    }
+
     #listTitle {
         font-size: 0.9rem;
     }
