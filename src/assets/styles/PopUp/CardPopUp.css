@@ -1,6 +1,6 @@
 #popUpDisplayContainer {
     height: auto !important;
-    max-height: 80vh;
+    /* max-height: 80vh; */
 }
 
 
@@ -25,9 +25,15 @@
 .projectTitle {
     text-align: center;
     font-weight: 400;
+    font-size: 2.34rem;
     color: white;
     padding: 0;
     margin: 0;
+}
+
+#popUpMedia {
+    width: 1280px;
+    height: 720px;
 }
 
 .projectDescription {
@@ -38,7 +44,54 @@
     margin: 1vh;
 }
 
+#projectMore {
+    text-align: left;
+    font-weight: 300 !important;
+    font-size: 1.8rem;
+    box-shadow: 0 0 0.8rem #016e76;
+    border-radius: 1vw;
+    padding: 1vh;
+    padding-right: 0;
+    padding-left: 2vh;
+    width: 98%;
+    margin-left: 1%;
+}
+
+/* git link colour: #551a8b, #7900FF */
 #gitLink {
-    color: #551a8b;
-    text-decoration: none;
+    color: #016e76;
+    /* text-decoration: none; */
+}
+
+@media screen and (max-width: 400px) {
+
+    #popUpDisplayContainer {
+        width: 100%;
+        height: 60vh;
+    }
+
+    .projectTitle {
+        font-size: 1.35rem;
+    }
+
+    #popUpMedia {
+        width: 350px;
+        height: 200px;
+    }
+
+    .projectDescription {
+        font-size: 0.8rem;
+    }
+
+    #projectMore {
+        font-size: 1.1rem;
+        padding: 0.8vh;
+        width: 80vw;
+        margin-left: 3.3vw;
+    }
+
+    #gitLink {
+        font-size: 1.1rem;
+    }
+    
 }

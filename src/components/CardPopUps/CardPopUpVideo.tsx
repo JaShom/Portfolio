@@ -32,7 +32,7 @@ function CardPopUpVideo(props: iProjectInfoProps): JSX.Element {
                 {props.projectTitle}
             </h3>
             <p className="projectDescription" >Here's a small video explaining the project (more info below).</p>
-            <video controls width={1280} height={720}>
+            <video controls id="popUpMedia">
 
                 {videoUrl ? (
                     <source src={videoUrl} type='video/mp4'/>
@@ -47,7 +47,7 @@ function CardPopUpVideo(props: iProjectInfoProps): JSX.Element {
             {props.projectDescription.map((para, index) => {
                 return <p className="projectDescription" key={index}>{para}</p>
             })}
-            <p>Project on Github: 
+            <p id="projectMore"> Project on Github: 
                 <a id="gitLink" href={props.projectURL} target="_blank" rel="noreferrer">
                     {props.projectTitle}
                 </a>

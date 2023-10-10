@@ -100,7 +100,7 @@ function Card(props: iCardDetailsProps): JSX.Element {
 
     return (
         <div className="card" onClick={() => cardClicked(cardInfoNeeded.projectVideo)}>
-            <h3 className="title">{props.title}</h3>
+            <h3 className="cardTitle">{props.title}</h3>
 
             <div className="bar">
                 <div className="emptyBar"></div>

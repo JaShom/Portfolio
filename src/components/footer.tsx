@@ -27,7 +27,7 @@ function Footer(): JSX.Element {
             <span id='smallerText'>2023</span>
         </div>
         <span id='disclaimer'>Disclaimer: I DO NOT OWN THE ICONS & GIFs USED HERE NOR DO I CLAIM OWNERSHIP OF THEM</span>
-        <span id='modified'>Last Modified: 6<sup>th</sup> October 2023</span>
+        <span id='modified'>Last Modified: 10<sup>th</sup> October 2023</span>
         </div>
         
     )

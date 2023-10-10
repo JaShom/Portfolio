@@ -30,7 +30,7 @@ function HomeItems(): JSX.Element {
             {/* <div className="spacer layer2 flip"></div> */}
             <div id="space"/>
             <ProjectSection/>
-            {/* <div id="space"/> */}
+            <div id="space"/>
             {/* <div className="spacer layer2 "></div> */}
             <div className='default thanks-section'>
                 <span id='item-title'>I look forward to hearing from you!</span>

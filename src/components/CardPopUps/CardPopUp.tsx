@@ -31,13 +31,13 @@ function CardPopUp(props: iProjectInfoProps): JSX.Element {
                 {props.projectTitle}
             </h3>
             <p className="projectDescription" style={{textAlign:"center"}}>Scroll down</p>
-            <img height={920} width={1280} src={pictureUrl} alt={props.projectPicture}/>
+            <img id="popUpMedia" src={pictureUrl} alt={props.projectPicture}/>
 
             {props.projectDescription.map((para, index) => {
                 return <p className="projectDescription" key={index}>{para}</p>
             })}
             
-            <p> Project here on Github: 
+            <p id="projectMore"> Project here on Github: 
                 <a id="gitLink" href={props.projectURL} target="_blank" rel="noreferrer">
                     {props.projectTitle}
                 </a>

@@ -164,12 +164,13 @@
 
     #welcome {
         font-family: 'Roboto Mono', monospace;
-        margin-left: 8px;
+        /* margin-left: 1px; */
+        margin-right: 13vw;
         color: #f5f5f5;
     }
 
     .home-h1 {
-        font-size: 4vw;
+        font-size: 0.93rem;
         /* font-weight: 400; */
     }
 
