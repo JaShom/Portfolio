@@ -50,7 +50,7 @@ function Card(props: iCardDetailsProps): JSX.Element {
                 "Additionally, the project employs a UML class diagram for architectural visualization and adheres to GRASP principles for well-structured class organization.",
                 "Overall, this project not only showcases the development of an efficient multi-client chat server but also marks my inaugural experience with Java programming and enjoyable teamwork."
             ],
-            projectURL: 'https://github.com/JaShom/Chat-Server/tree/main/APChatServer-main'
+            projectURL: 'https://github.com/JaShom/MultiChat-Server/tree/main'
         },
         {
             projectID: 3,
@@ -75,7 +75,7 @@ function Card(props: iCardDetailsProps): JSX.Element {
                 "However, it's worth noting that the application currently has a limitation, as it may encounter difficulties reading pixels on certain monitors.",
                 "Despite this challenge, the project still demonstrates proficiency in C++ programming for Windows, real-time cursor tracking, pixel color capture, conversion, and the development of a user interface for displaying cursor information. This collective expertise makes it a valuable foundation for cursor tracking and pixel color analysis in various applications."
             ],
-            projectURL: ''
+            projectURL: 'https://github.com/JaShom/Colour-Capture-Tool'
         },
     ]
     const cardInfoNeeded = cardInfoForPopUp[props.projectID]
