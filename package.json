@@ -13,12 +13,13 @@
     "@types/node": "^16.18.38",
     "@types/react": "^18.2.15",
     "@types/react-dom": "^18.2.7",
-    "ejs":"^3.1.10",
+    "ejs": "^3.1.10",
     "express": "^4.19.2",
-    "framer-motion": "^10.15.0",
     "follow-redirects": "^1.15.6",
+    "framer-motion": "^10.15.0",
     "gh-pages": "^6.0.0",
     "jquery": "^3.7.0",
+    "jsdom": "^25.0.0",
     "kute.js": "^2.2.4",
     "nth-check": "^2.1.1",
     "postcss": "^8.4.38",
@@ -27,7 +28,8 @@
     "react-router-dom": "^6.14.1",
     "react-scripts": "5.0.1",
     "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "webpack-dev-server": "^5.0.4"
   },
   "scripts": {
     "predeploy": "npm run build",
