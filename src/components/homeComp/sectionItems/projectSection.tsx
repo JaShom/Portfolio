@@ -43,8 +43,8 @@ function ProjectSection(): JSX.Element {
         },
         {
             projectID: 4,
-            title: "Color Capture Tool",
-            description: " Developed a real-time screen capture tool using C++ that tracks the cursor's position and captures pixel color informationThe application continuously displays the cursor's coordinates and..."
+            title: "Colour Capture Tool",
+            description: "Developed a real-time screen capture tool using C++ that tracks the cursor's position and captures pixel color information. The application continuously displays the cursor's coordinates and..."
         },
     ]
 
