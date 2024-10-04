@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[529],{529:(e,p,s)=>{e.exports=s.p+"static/media/NavSystem.de5fabf01cbe4d9ca097.png"}}]);
