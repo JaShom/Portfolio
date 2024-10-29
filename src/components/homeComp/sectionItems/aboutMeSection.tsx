@@ -32,12 +32,12 @@ function AboutMeSection(): JSX.Element {
                         
                     </p>
                     <p id="item1-desc">
-                        While I have a preference for backend development, I am flexible and open to considering positions in any area of software engineering. My deep love for technology and my problem-solving mindset drive my enthusiasm for this field. 
+                        While I have a preference for backend development, I am flexible and open to considering positions in any area of technology. My deep love for technology and my problem-solving mindset drive my enthusiasm for this field. 
                         I am eager to contribute my skills and knowledge to tackle challenging problems and help create innovative solutions.
                         
                     </p>
                     <p id="item1-desc">
-                        Thank you for visiting my web portfolio, and please feel free to explore my work and accomplishments in the field of Computer Science. If you have any inquiries or would like to connect, I would be delighted to hear from you.
+                        Thank you for visiting my web portfolio, and please feel free to explore my work and accomplishments in the field of Computer Science. If you have any inquiries or would like to connect, I would be delighted to hear from you (Email and Social Media below).
                     </p>
                 </span>
                 
