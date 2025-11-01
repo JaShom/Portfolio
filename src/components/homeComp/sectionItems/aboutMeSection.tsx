@@ -27,8 +27,9 @@ function AboutMeSection(): JSX.Element {
                 </div>
                 <span className="hidden">
                     <p id="item1-desc">
-                        Hello there! I am Jubril-Awwal Shomoye, known to many as Awwal, and I am a Computer Science Graduate with a passion for technology. I am a gamer and a fitness enthusiast. 
-                        Currently, I am actively seeking opportunities as a Software Engineer across various industries. I am open to exploring roles that can kick start my career, provide opportunities to acquire new skills, and further refine my existing ones.
+                        Hello there! I am Jubril-Awwal Shomoye, known to many as Awwal. I am a Computer Science Graduate and currently studying a MSc in Robotics at KCL. If it wasn't clear already, I am very passionate with technology. 
+                        In my free time, I am a gamer, an indoor rock climber, a gym rat and a delusional food critic. 
+                        Currently, I am actively seeking opportunities in technology, ideally software, across various industries. I am open to exploring roles that can kick start my career, provide opportunities to acquire new skills, and further refine my existing ones.
                         
                     </p>
                     <p id="item1-desc">
