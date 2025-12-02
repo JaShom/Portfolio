@@ -25,6 +25,7 @@
     "form-data": "~4.0.4",
     "framer-motion": "^10.15.0",
     "gh-pages": "^6.0.0",
+    "glob": "^11.1.0",
     "http-proxy-middleware": "~2.0.9",
     "jquery": "^3.7.0",
     "jsdom": "^25.0.0",
@@ -75,6 +76,6 @@
     ]
   },
   "devDependencies": {
-    "react-scripts": "^5.0.1"
+    "react-scripts": "^0.0.0"
   }
 }
