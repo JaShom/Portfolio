@@ -38,7 +38,7 @@ function AboutMeSection(): JSX.Element {
                         
                     </p>
                     <p id="item1-desc">
-                        Thank you for visiting my web portfolio, and please feel free to explore my work and accomplishments in the field of Computer Science. If you have any inquiries or would like to connect, I would be delighted to hear from you (Email and Social Media below).
+                        Thank you for visiting my web portfolio, and please feel free to explore my work and accomplishments in the field of Computer Science. If you have any inquiries or would like to connect, I would be delighted to hear from you (Email and LinkedIn below).
                     </p>
                 </span>
                 

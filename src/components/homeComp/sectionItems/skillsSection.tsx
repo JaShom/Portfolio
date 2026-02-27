@@ -65,6 +65,7 @@ function SkillsSection(): JSX.Element {
                                 <li>NodeJS</li>
                                 <li>CUDA</li>
                                 <li>TypeScript</li>
+                                <li>ROS2</li>
                             </ul>
                         </span>
 
